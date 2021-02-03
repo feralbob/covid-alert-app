@@ -248,6 +248,8 @@ dependencies {
     androidTestImplementation('com.wix:detox:+') { transitive = true }
     androidTestImplementation 'junit:junit:4.12'
     implementation "androidx.annotation:annotation:1.1.0"
+
+    implementation 'com.github.PhilJay:JWT:1.1.5'
 }
 
 // Run this once to be able to run the application with BUCK
